@@ -1,0 +1,11 @@
+name: "Automatic release"
+
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/setup-node@v2.5.1
+      with:
+        node-version: 16
+    - name: "Run JS script"
+      run: node $GITHUB_ACTION_PATH/auto.js
+      shell: "bash"
