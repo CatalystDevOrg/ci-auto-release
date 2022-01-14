@@ -8,3 +8,4 @@ const currentDay = now.getDay() + 1;
 
 // execute npm version
 exec(`npm version ${currentYear}.${currentMonth}.${currentDay}-beta`)
+exec(`git checkout ${currentYear}.${currentMonth}.${currentDay}-beta`)
