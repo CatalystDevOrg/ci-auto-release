@@ -1,0 +1,22 @@
+{
+  "name": "ci-auto-release",
+  "version": "1.0.0",
+  "description": "CI for Catalyst",
+  "main": "auto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Catalyst-Browser-Project/ci-auto-release.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/The-Catalyst-Browser-Project/ci-auto-release/issues"
+  },
+  "homepage": "https://github.com/The-Catalyst-Browser-Project/ci-auto-release#readme",
+  "dependencies": {
+    "cross-fetch": "^3.1.5"
+  }
+}
