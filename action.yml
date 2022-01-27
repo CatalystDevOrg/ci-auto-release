@@ -7,7 +7,7 @@ runs:
       with:
         node-version: 16
     - name: "get dependencies"
-      run: npm install
+      run: cd $GITHUB_ACTION_PATH && npm install
       shell: "bash"
     - name: "Run JS script"
       run: node $GITHUB_ACTION_PATH/auto.js
